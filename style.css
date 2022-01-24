@@ -1,0 +1,126 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 35px;
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+  justify-content: center;
+}
+
+.flex-container1 > div {
+  background-color: white;
+  width: 35px;
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.flex-container2 > div {
+  background-color: white;
+  width: 35px;
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+  justify-content: flex-end;
+}
+
+.flex-container3 > div {
+  background-color: white;
+  width: 35px;
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.flex-container4 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+  justify-content: space-between;
+}
+
+.flex-container4 > div {
+  background-color: white;
+  width: 35px;
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.flex-container5 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+  justify-content: space-evenly;
+}
+
+.flex-container5 > div {
+  background-color: white;
+  width: 35px;
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.flex-container6 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #d3d3d3;
+  justify-content: space-evenly;
+}
+
+.flex-container6 > div {
+  background-color: white;
+  width: calc(100% / 3 - 44px);
+  height: 60px;
+  margin: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
